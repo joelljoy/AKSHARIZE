@@ -1,0 +1,61 @@
+# =========================
+# Python
+# =========================
+
+venv/
+.venv/
+env/
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# IDEs
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+
+# =========================
+# OCR Debug Images
+# =========================
+
+received_image.png
+debug_original.png
+debug_processed.png
+debug_gray.png
+debug_thresh.png
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Operating System Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary Files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.bak
